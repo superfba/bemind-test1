@@ -1,0 +1,10 @@
+[ { c1: { slug: 'abbigliamento', name: 'Abbigliamento' },
+    c2: { slug: 'estivo', name: 'Estivo' },
+    c3: { slug: 'per-il-mare', name: 'Per il mare' } },
+  { c1: { slug: 'abbigliamento', name: 'Abbigliamento' },
+    c2: { slug: 'estivo', name: 'Estivo' },
+    c3: { slug: 'per-la-montagna', name: 'Per la montagna' } },
+  { c1: { slug: 'abbigliamento', name: 'Abbigliamento' },
+    c2: { slug: 'invernale', name: 'Invernale' } },
+  { c1: { slug: 'arte', name: 'Arte' },
+    c2: { slug: 'quadri-e-fotografie', name: 'Quadri e fotografie' } } ]
