@@ -27,8 +27,8 @@ category.map(function (el) {
     let slugObj = {};
     for (let i = 0; i < keys.length; i++) {
         let name = el[keys[i]];
-        let slug = name.substr(0, name.length / 2).trim();
-        name = name.substr(name.length / 2).trim();
+        let slug = name.substr(0, name.indexOf(' ')).trim();
+        name = name.substr(name.indexOf(' ')).trim();
 
         slugObj[keys[i]] = { slug: slug, name: name };
     }
